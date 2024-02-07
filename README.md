@@ -62,11 +62,11 @@ git branch hello
 
 git checkout hello
 ```
+______
 
+![image1]("/home/vladimir/fa-practics/fa-ns-practice/img/Снимок экрана_2024-02-07_17-40-04.png")
 
-![image]("/home/vladimir/fa-practics/fa-ns-practice/img/2024-02-07_17-37-55.png")
-
-
+_____
 
 Снимок экрана_2024-02-07_17-40-04.png
 Снимок экрана_2024-02-07_17-42-41.png
