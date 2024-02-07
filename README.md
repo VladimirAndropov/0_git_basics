@@ -64,7 +64,7 @@ git checkout hello
 ```
 ______
 
-![image1]("/home/vladimir/fa-practics/fa-ns-practice/img/Снимок экрана_2024-02-07_17-40-04.png")
+ - ![image]("img/4.png")
 
 _____
 
