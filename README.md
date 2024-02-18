@@ -1,5 +1,71 @@
-## Семинарские занятия по теме git
+# Семинарские занятия по теме git
 _____
+
+### Предварительная проверка установки и работы СКВ: 
+```
+cd project/
+git init
+git add main.py
+git commit -m "КАКОЙ-ТО КОММИТ"
+```
+
+# Шпаргалка для нетерпеливых
+
+
+## Начало
+
+1. Поставь репозиторию звездочку
+2. Сделай fork репозитория
+3. Открой на своем компьютере папку для будущего проекта
+4. Открой терминал в этой папке и склонируй удаленный репозиторий с помощью git clone
+5. Открой проект с помощью Pycharm
+6. Запусти основной файл
+
+
+Для дальнейшей работы с удаленным репозиторием указываем данные вашего аккаунта:
+
+git config —-local user.name "John Doe"
+
+git config —-local user.email johndoe@example.com
+
+1. Попробуй сделать изменение в файле binary_search.py
+2. git add binary_search.py 
+3. git commit -m "Something terribly misguided"
+4. git reset HEAD~ - Undo last commit
+5. Убираем свои изменения и добавляем где-то пробел, чтобы было что-то новенькое
+6. git add .
+7. git commit -m "Cool commit"
+8. git push origin main
+
+## Откат отправленного коммита на GitHub обратно
+
+1. git push origin +62b182ac^:main , где 62b182ac - номер коммита, который хотим откатить
+2. Убеждаемся, что пуш откатился
+
+<h1> Теги... Теги! </h1>
+
+1. git tag
+2. git tag v1.0
+3. git tag
+4. git push origin v1.0
+5. Видим тег в репозитории
+6. git push —delete origin v1.0  - откатываем тег из репозитория
+
+<h2> Возможные проблемы </h2>
+
+Support for password authentication was removed on august 13 2021
+
+Решение:
+
+Settings => Developer Settings => Personal Access Token => Generate New Token 
+
+Ставим галочки на весь repo и на read_org
+
+Токен сгенерирован! Теперь вставляем его вместо пароля.
+
+_______________
+
+# Семинарская работа
 
 Цель: Нам нужно смержить ветки, выполнив следующие команды:
 
